@@ -1,0 +1,10 @@
+import random
+
+random.seed(42)
+numbers = [random.randint(1, 1000) for _ in range(100)]
+
+print("Первые 10 чисел из списка:")
+print(numbers[:10])
+print("Последние 10 чисел из списка")
+print(numbers[::-10])
+
